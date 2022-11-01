@@ -38,21 +38,26 @@ li::before {
   color: white;
 }
 .img{
-    margin-left: 20px;
-    padding-left: 20px;
-    
+    margin-left: auto;
+    padding-left: auto;
+}
+.kep{
+	width:300px;
+}
+.szovi{
+	width:400px;
 }
 .elsonagy {
   color:white;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left:auto;
+  margin-right:auto;
+	width:700px;
   grid-area: elso;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 .folyamat {
-  width: 500px;
-  height: 680px;
+  width: 300px;
   float: right;
 }
 .kicsi {
@@ -77,46 +82,122 @@ h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:white;
   border-radius: 2px;
+  border-color: black solid 2px;
   border-bottom: 2px;
-  text-align: center;
+  text-align:center;
+}
+
+.szovi h2{
+  text-align: left;
   border-color: red;
+  border-bottom: 1px solid red;
 }
 .masodiknagy {
+	width:600px;
     color:white;
   padding-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 5fr);
   column-gap: 5px;
   row-gap: 1em;
+  margin-left:auto;
+  margin-right:auto;
 }
 
+.harmadiknagy {
+  color:white;
+  padding-top: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  grid-area: harmadik;
+  
+}
+.harmadiknagy h1{
+	text-align:center;
+	clear:both;
+	  border-color: red;
+  border-bottom: 1px solid red;
+  margin-left:auto;
+  margin-right:auto;
+  width:600px;
+}
+.harmadiknagy img{
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+	
+}
+.box{
+    color:white;
+    border-radius: 10%;
+	background-color:blue;
+	text-decoration:none;
+	height:15px;
+    border-color: blue;
+    border-style: solid;
+	padding:3px;
+	margin-top:100px;
+}
+.box a{
+	
+	text-align:center;
+	text-transform:uppercase;
+}
 .sales {
     color:white;
   text-align: center;
 }
-.harmadiknagy {
-    color:white;
-  padding-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  grid-area: harmadik;
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-.box{
-    color:white;
-    border-radius: 50%;
-    border-color: blue;
-    border-style: solid;
-}
 .persons{
     display: grid;
-    margin-left: 300px;
-    grid-template-columns: auto auto auto auto auto;
+    margin-left: auto;
+	margin-right: auto;
+	width:600px;
+    grid-template-columns: auto auto auto auto;
+	
+}
+.person{
+	padding:10px;
 }
 @media screen and (max-width: 600px) {
   body {
     margin-right:auto;
     margin-left:auto;
   }
+  .kicsi {
+  margin-right: auto;
+    margin-left: auto;
+	width:200px;
+	border:none;
 }
+.elsonagy{
+	width:auto;
+	display:block;
+}
+.masodiknagy{
+	width:auto;
+	display:block;
+}
+.harmadiknagy{
+	width:auto;
+	display:block;
+}
+.harmadiknagy h1{
+width:auto;
+}
+.szovi{
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+}
+.kep{
+		margin-left:auto;
+	margin-right:auto;
+}
+.persons{
+	display:block;
+}
+.menu ul{
+display:block
+}
+}
+
