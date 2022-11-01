@@ -40,6 +40,7 @@ li::before {
 .img{
     margin-left: 20px;
     padding-left: 20px;
+    
 }
 .elsonagy {
   color:white;
@@ -99,14 +100,14 @@ h2 {
   margin-left: 50px;
   margin-right: 50px;
   grid-area: harmadik;
-  display: contents;
+  display: grid;
   grid-template-columns: auto auto auto;
 }
 .box{
     color:white;
-    border-radius: 2px;
+    border-radius: 50%;
     border-color: blue;
-    border-style: dashed;
+    border-style: solid;
 }
 .persons{
     display: grid;
