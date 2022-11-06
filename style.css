@@ -45,19 +45,19 @@ li::before {
 	width:300px;
 }
 .szovi{
-	width:400px;
+	width:30%;
 }
 .elsonagy {
   color:white;
   margin-left:auto;
   margin-right:auto;
-	width:700px;
+	width:80%;
   grid-area: elso;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 .folyamat {
-  width: 300px;
+  width: 20%;
   float: right;
 }
 .kicsi {
