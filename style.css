@@ -3,9 +3,6 @@ body {
   margin-left: 150px;
   margin-right: 150px;
 }
-.pontatlan {
-  list-style-type: none;
-}
 .menu ul{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
@@ -33,6 +30,9 @@ li::before {
   content: ">  "; 
   color: orangered;
 }
+.pontatlan {
+  list-style-type: none;
+}
 .menu a.active {
   background-color: white;
   color: white;
@@ -42,10 +42,10 @@ li::before {
     padding-left: auto;
 }
 .kep{
-	width:300px;
+	width:100%;
 }
 .szovi{
-	width:30%;
+	width:auto;
 }
 .elsonagy {
   color:white;
@@ -57,7 +57,7 @@ li::before {
   grid-template-columns: auto auto auto;
 }
 .folyamat {
-  width: 20%;
+  width: 80%;
   float: right;
 }
 .kicsi {
